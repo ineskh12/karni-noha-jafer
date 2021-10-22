@@ -1,19 +1,10 @@
 <?php
-//get data from form  
-$name = $_POST['name'];
-$email= $_POST['email'];
-$message= $_POST['message'];
-$number = $_POST['mobile'];
+    $to      = 'nobody@example.com';
+    $subject = 'the subject';
+    $message = 'hello';
+    $headers = 'From: ali.obba.chantier@gmail.comm'       . "\r\n" .
+                 'Reply-To: ali.obba.chantier@gmail.com' . "\r\n" .
+                 'X-Mailer: PHP/' . phpversion();
 
-$to = "ali.obba.chantier@gmail.com";
-
-$subject = "Mail From codeconia";
-$txt ="Name = ". $name . "\r\n Email = " . $email . "\r\n Message =" . $message ."\r\n Mobile number =". $number;
-
-$headers = "From: noreply@codeconia.com";
-if($email!=NULL){
-    mail($to,$subject,$txt,$headers);
-}
-//redirect
-header("Location:thankyou.html");
+    mail($to, $subject, $message, $headers);
 ?>
