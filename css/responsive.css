@@ -1,0 +1,149 @@
+@media (max-width: 1400px) {
+    .illustration5 {
+        display: none;
+    }
+    .w {
+        max-width: 80%;
+    }
+    .illustration6 {
+        display: none;
+    }
+    .title-header-style{
+        font-size: 14px;
+    }
+}
+
+@media all and (display-mode: fullscreen) {
+    body {
+        margin: 0;
+        border: 5px solid black;
+    }
+}
+
+/* Medium Layout: 1280px. */
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+}
+
+/* Tablet Layout: 768px. */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .mainmenu-area #primary-menu > ul > li > a {
+        padding: 30px 12px;
+    }
+    .header-area {
+        padding-top: 80px;
+    }
+    .price-table,
+    .box {
+        padding: 30px 15px;
+    }
+    .price-table.active {
+        padding: 50px 15px;
+    }
+    .single-team {
+        margin-bottom: 0px;
+        height: auto;
+    }
+    .side-icon-boxes {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+    }
+    .title-size {
+        font-size: 40px;
+    }
+
+    .w {
+        max-width: 40%;
+    }
+}
+
+/* Mobile Layout: 320px. */
+
+@media only screen and (max-width: 767px) {
+    body {
+        font-size: 13px;
+    }
+    .header-area {
+        padding-top: 120px;
+        padding-bottom: 100px;
+        height: auto;
+    }
+
+    .title {
+        font-size: 36px;
+    }
+    .title-size {
+        font-size: 36px;
+    }
+    .subtitle {
+        font-size: 17px;
+    }
+    .mainmenu-area .navbar-toggle {
+        margin-top: 20px;
+        color: black;
+    }
+    .mainmenu-area .navbar-toggle .icon-bar {
+        background-color: #0b2f89;
+    }
+    .mainmenu-area #primary-menu {
+        background-color: #0b2f89;
+    }
+    .mainmenu-area #primary-menu ul {
+        overflow-y: auto;
+        max-height: 70vh;
+        margin: 0;
+    }
+    .mainmenu-area #primary-menu > ul > li > a {
+        padding: 15px;
+        overflow: hidden;
+    }
+    .box {
+        padding: 30px 15px;
+    }
+    .box .box-icon {
+        height: auto;
+    }
+    .single-blog,
+    .single-team,
+    .price-table.active {
+        margin-top: 30px;
+        height: auto;
+    }
+    .form-double input {
+        width: 100%;
+    }
+    .footer-top {
+        margin-bottom: 50px;
+    }
+    .x-left {
+        text-align: left;
+    }
+    .mainmenu-area .logo {
+        margin-left: 15px;
+    }
+
+    .w {
+        max-width: 40%;
+    }
+}
+
+/* Wide Mobile Layout: 480px. */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+}
+@media (max-width: 320px) {
+    .title-size {
+        font-size: 30px;
+    }
+
+    .w {
+        max-width: 40%;
+    }
+}
