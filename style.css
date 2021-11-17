@@ -156,6 +156,9 @@ input:-webkit-autofill:focus {
 .section-padding {
     padding: 120px 0;
 }
+.section-padding2 {
+    padding:0px 0;
+}
 
 .social-menu {
     list-style: none;
